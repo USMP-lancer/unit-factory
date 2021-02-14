@@ -153,7 +153,5 @@ ui.onLoad(() => {
 	});
 });
 
-
-
 	dialog.show();
 }, b => {button = b.get()});
