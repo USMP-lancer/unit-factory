@@ -76,8 +76,7 @@ ui.onLoad(() => {
 		units.sort();
 		var i = 0;
 		units.each(unit => {
-			// Block "unit" for payloads
-			if (unit.isHidden()) return;
+			// i must experiment with this "block"
 
 			if (i++ % 4 == 0) {
 				list.row();
